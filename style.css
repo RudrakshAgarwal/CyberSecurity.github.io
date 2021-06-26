@@ -56,3 +56,13 @@ body {
         margin-top: 230px;
     }
 }
+
+
+label.logo{
+    //opacity: 1;
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
