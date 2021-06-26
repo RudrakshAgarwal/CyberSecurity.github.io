@@ -7,103 +7,18 @@
 
     <!-- Bootstrap CSS -->
 
-    <link rel="stylesheet" href="style_about.css">
+    
     <link rel="stylesheet" href="style_contact.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css"> 
     <title></title>
     <style>
     
 
-    nav{
-    background-color: rgba(60,134,245,0.4);
-    height:5rem;
-}
-label.logo{
-    //opacity: 1;
-    color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
-}
-nav ul{
-    float: right;
-    margin-right: 70px;
-}
-nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-nav ul li a{
-    color: white;
-    font-size: 17px;
-    padding: 7px 13px;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-a.active,a:hover{
-    color:black;
-    transition: .5s;
-}
-.checkbtn{
-    font-size: 30px;
-    color:white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-#check{
-    display: none;
-}
-
-@media (max-width:952px) {
-    label.logo{
-        font-size: 30px;
-        padding-left: 50px;
+    #header-section{
+    background-image:url("https://cdn.pixabay.com/photo/2014/05/02/21/50/home-office-336377_960_720.jpg");
     }
-    nav ul li a{
-        font-size: 16px;
-    }
-}
-
-
-@media (max-width:858px){
-    .checkbtn{
-        display: block;
-    }
-    ul{
-        position: fixed;
-        width:100%;
-        height:auto;
-        background: black;
-        top:80px;
-        left: 0;
-        text-align: center;
-        left:-100%;
-        transition: all .5s;
-    }
-    nav ul li{
-        display: block;
-        margin: 10px 0;
-        line-height: 30px;
-    }
-    nav ul li a{
-        font-size: 20px;
-    }
-    a.active,a:hover{
-        background: none;
-        color: white;
-    }
-    #check:checked ~ul{
-        left: 0;
-    }
-    
-}
-
         
         .small_heading{
             text-align: center;
@@ -179,29 +94,56 @@ body, html {
   <body>
   
      
-    <div class="hero-image">
-        <nav>
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fa fa-bars"></i>
-            </label>
-            <label class="logo">B-Blaze</label>
-            <ul>
-                <li>
-                    <a href="index.html" target="_blank">HOME</a>
-                </li>
-                <li>
-                    <a href="about_us.html" target="_blank">About</a>
-                </li>
-                <li>
-                    <a class="active" href="#">Services</a>
-                </li>
-                <li>
-                    <a href="contact_us.html" target="_blank">Contact us</a>
-                </li>
-            </ul>
-        </nav>
-      </div>
+    <div>
+        <section id="header-section">
+        <header class="top-header">
+            <div class="py-10" id="topHeader">
+
+            <div id="navBar">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-dark navbar-expand-md navBar-background-color">
+
+                        <label class="logo">B-Blaze</label>
+
+                        <button data-toggle="collapse" data-target="#navbarToggler" type="button" class="navbar-toggler">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarToggler">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="/">Home</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <!-- To add drop down menu add dropdown-toggle class in nav-link side. -->
+                                    <a class="nav-link" href="services.html" target="_blank">Services</a>
+                                    <!-- <div class="dropdown-menu">
+                                        <a href="#" class="dropdown-item">Web Designing</a>
+                                        <a href="#" class="dropdown-item">Web Development</a>
+                                        <a href="#" class="dropdown-item">SEO Services</a>
+                                        <a href="#" class="dropdown-item">Software Development</a>
+                                        <a href="#" class="dropdown-item">Mobile App Development</a>
+                                        <div href="#" class="dropdown-divider"></div>
+                                        <a href="#" class="dropdown-item">Graphic Designing</a>
+                                    </div> -->
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about_us.html" target="_blank">About us</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact_us.html" target="_blank">Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div> 
+            </div>
+        </header> 
+    </section> 
+        </div>
       <section>
     <div class="container">
         <div class="container">
