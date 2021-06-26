@@ -18,7 +18,7 @@ body {
     background-image: url("Images/Cyber_Security.jpg");
     
     /* Full height */
-    height: 100vh;
+    background-size: 100% 100%;
     
     /* Center and scale the image nicely */
     background-position: center;
@@ -44,36 +44,15 @@ body {
 
 /* -----------------------------------------------Navigation-Menu/BottomHeader----------------------------------------------- */
 
-.container-fluid{
-    padding-left: 0;
-    padding-right: 0;
-}
-
-#navBar{
+.last_part{
+    height:auto;
+    margin-top: 190px;
+    padding-top: 20px;
     background-color: #0b131a60;
+    position: relative;
 }
-
-nav ul li a{
-    font-size: 1.1rem;
-    font-weight: 600; 
+@media (max-width:858px){
+    .last_part{
+        margin-top: 230px;
+    }
 }
-/* -----------------------------------------------/Navigation-Menu/BottomHeader----------------------------------------------- */
-
-/* -----------------------------------------------Start of home page hero section----------------------------------------------- */
-.top-hero-section{
-    color: white;
-    margin: 200px;
-}
-
-.top-hero-section a{
-    color: white;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.quality-image{
-    width: 220px;
-}   
-
-/* -----------------------------------------------/Start of home page hero section----------------------------------------------- */
-
