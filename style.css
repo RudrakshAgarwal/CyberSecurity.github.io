@@ -95,17 +95,62 @@ nav ul li a{
   }
   .top-hero-section h2{
     font-size:35px important;
-    font weight:bolder;
+    font-weight: bolder;
   }
   .top-hero-section h5{
     font-size:15px;
   }
 }
 
-
-
-
-
-
 /* -----------------------------------------------/Start of home page hero section----------------------------------------------- */
+
+/* -----------------------------------------------About us - Breadcrumbs-section----------------------------------------------- */
+.breadcrumbs-section{
+  background-color: #e9ecef;
+}
+/* -----------------------------------------------/About us - Breadcrumbs-section----------------------------------------------- */
+
+
+/* -----------------------------------------------Contact us - Form-section----------------------------------------------- */
+.address p{
+  font-weight: 600;
+}
+
+.address a{
+  text-decoration: none;
+}
+
+.maps iframe{
+  border: 0;
+}
+/* -----------------------------------------------/Contact us - Form-section----------------------------------------------- */
+
+
+/* -----------------------------------------------Footer----------------------------------------------- */
+.full-footer{
+  background-color: #000000dc;
+}
+
+.top-footer p{
+  color: white;
+}
+
+.top-footer a{
+  color: white;
+  font-weight: 600;
+}
+
+.top-footer h3{
+  color: white;
+}
+
+.bottom-footer{
+  background-color: #00010256;
+}
+
+.bottom-footer p{
+  color: white;
+}
+
+/* -----------------------------------------------/Footer----------------------------------------------- */
 

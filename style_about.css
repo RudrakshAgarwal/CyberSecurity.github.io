@@ -17,7 +17,7 @@ nav{
     height:5rem;
 }
 label.logo{
-    //opacity: 1;
+    opacity: 1;
     color: white;
     font-size: 35px;
     line-height: 80px;
@@ -71,7 +71,7 @@ a.active,a:hover{
 .about_label{
     height:350px;
     width:50%;
-    //border: 2px solid black;
+    border: 2px solid black;
     margin: auto;
     color: white;
     font-size: 30px;
@@ -80,7 +80,7 @@ a.active,a:hover{
 .content{
     margin-top:50px;
     width:100%;
-    //border: 1px solid black;
+    border: 1px solid black;
 }
 .con{
     width:70%;
@@ -227,7 +227,7 @@ h1 {
     font-size: 30px;
     padding: 15px
 }
-}
+
 
 .card-body {
     background-color: #f2f2f2
@@ -240,7 +240,7 @@ h1 {
 }
 
 
-//footer section
+/* footer section */
 
 footer .main-footer{  padding: 20px 0;  background: #252525;}
 footer ul{  margin-top:20px;padding-left: 0;  list-style: none;}
