@@ -12,6 +12,12 @@ body {
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* IE 10+ */
 }
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 /*........ /invisible scrolls on body........*/
 
 #header-section{
@@ -163,3 +169,9 @@ label.logo{
 
 /* -----------------------------------------------/Footer----------------------------------------------- */
 
+/* -----------------------------------------------Home page 3rd requirement section----------------------------------------------- */
+.requirement-section{
+  background-color: #041018d3;
+  color: white;
+}
+/* -----------------------------------------------/Home page 3rd requirement section----------------------------------------------- */
